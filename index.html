@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>GemcaIo</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: rgb(156, 156, 156);
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+                opacity: 0.5;
+            }
+
+            main {
+                padding: 20px;
+                color: #fff;
+                text-align: center;
+            }
+
+            button {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                outline: none;
+                position: relative;
+                overflow: hidden;
+                transition: background-color 0.3s ease;
+            }
+
+            button img {
+                width: 50px;
+                height: 50px;
+                transition: transform 0.3s ease;
+            }
+
+            button:hover img {
+                transform: scale(1.1);
+            }
+
+            button::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.3);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+
+            button:hover::before {
+                opacity: 1;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>GemcaIo</h1>
+        </header>
+        <main>
+            <h1>Website doesnt have project</h1>
+        </main>
+        <main>
+            <h2>U can find me on</h2>
+            <a href="https://www.youtube.com/channel/UCK8cLFapzYpN1DTYqZHG1Xg"><button><img src="1384060.png" width="50" height="50"></button></a>
+        </main>
+    </body>
+</html>
